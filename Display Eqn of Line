@@ -1,0 +1,25 @@
+# Q. Write a program to display the equation of a line in the form ax + by = c
+
+#include <stdio.h>
+
+int eqn()
+{
+    int a, b, c;
+    
+    printf("Enter value of coeff. a : ");
+    scanf("%d",&a);
+    
+    printf("Enter value of coeff. b : ");
+    scanf("%d",&b);
+    
+    printf("Enter value of coeff. c : ");
+    scanf("%d",&c);
+    
+    printf("Eqn : %dx + %dy = %d", a, b, c);
+}
+
+int main()
+{
+    eqn();
+    return 0;
+}
